@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": true, // enable strict null checks as a best practice
+    "module": "CommonJS", // specify module code generation
+    "target": "es5", // specify ECMAScript target version
+    "allowJs": true, // allow a partial TypeScript and JavaScript codebase
+    "baseUrl": "./src", // allows imports to be relative to src folder instead of ../../../../something (install vscode extension "Path Intellisense")
+    "paths": {
+      "@src/*": ["*"]
+    }
+  },
+  "include": ["./src/"]
+}

@@ -1,0 +1,19 @@
+    <item>
+      <guid isPermaLink="false">{{guid}}</guid>
+      <title>{{title}}</title>
+      <description><![CDATA[{{htmlDescription}}]]></description>
+      <pubDate>{{pubDate}}</pubDate>
+      <author>{{author}}</author>
+      <content:encoded><![CDATA[{{htmlDescription}}]]></content:encoded>
+      <enclosure length="{{audioLengthBytes}}" type="audio/mpeg" url="{{audioUrl}}"/>
+      <itunes:title>{{title}}</itunes:title>
+      <itunes:author>{{author}}</itunes:author>
+      <itunes:image href="{{imageUrl}}"/>
+      <!--<itunes:duration>01:09:59</itunes:duration>-->
+      <itunes:duration>{{duration}}</itunes:duration>
+      <itunes:summary>{{summary}}</itunes:summary>
+      <itunes:subtitle>{{summary}}</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>{{episodeNo}}</itunes:episode>
+    </item>
