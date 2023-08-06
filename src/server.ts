@@ -7,7 +7,7 @@ import { FilesUtil } from './util/FilesUtil';
 const app = express();
 const port = 9001;
 const ipAddress = getIPAddress();
-const podcastsRootFolder = '\\\\192.168.1.2\\Backup\\Podcasts';
+const podcastsRootFolder = '\\\\192.168.1.2\\Media\\Audio\\Podcasts';
 const rssBaseUrl = 'http://' + ipAddress + ':' + port + '/podcast-rss';
 const podcastFileBaseUrl = 'http://' + ipAddress + ':' + port + '/podcasts';
 
